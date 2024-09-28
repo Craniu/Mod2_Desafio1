@@ -1,0 +1,144 @@
+body {
+    font-family: "Roboto", "Open Sans";
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+}
+
+menu {
+    background-color: rgb(255, 255, 255);
+    width: 23%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+menu ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+menu li {
+    padding: 0;
+    border-color: rgba(125, 125, 125, 0.6);
+    border-style: solid;
+    border-width: 1px;
+}
+
+menu i {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+menu i:hover {
+    color: black;
+}
+
+section {
+    min-width: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section img {
+    width: 300px;
+}
+
+section h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin: 1rem;
+    text-align: center;
+}
+
+section p {
+    margin: 0;
+    text-align: center;
+}
+
+
+
+/* Clases */
+
+.boxPrimary {
+    padding: 10px 20px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotoPerfil {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 65%;
+}
+
+.tituloPerfil {
+    text-align: start;
+    min-width: 50%;
+}
+
+.tituloPerfil h3 {
+    margin: 5px 0px;
+    font-weight: 500;
+}
+
+.tituloPerfil h4 {
+    margin: 5px 0px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.700);
+}
+
+.tituloPerfil p {
+    margin: 0;
+    font-size: smaller;
+    color: rgba(0, 0, 0, 0.700);
+
+}
+
+.boxBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnChat {
+    padding: 16px 65px;
+    margin: 40px 30px;
+    background-color: #A491d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.btnChat:hover {
+    background-color: #CDC3E6;
+}
+
+.btnChat:active {
+    background-color: #BEC1BB;
+}
+
+.boxSecundary {
+    padding: 10px 20px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: start;
+}
+
+.boxSecundary img {
+    margin: 0px 15px;
+    padding: 0;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 75%;
+}
